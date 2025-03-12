@@ -1,75 +1,4 @@
-/* html {
-    border: 1vw outset #5F374B;
-}
-
-header {
-    background-color: #692d33;
-    color: #f39e60;
-    font-weight: bolder;
-    font-size: 1.5vw;
-    padding: 0.5vw;
-    color: #FFF;
-    text-shadow: 0 0 0.3vw #FFF, 0 0 0.55vw #FFF, 0 0 0.8vw #f39e60, 0 0 0.85vw #f39e60, 0 0 1.05vw #f39e60, 0 0 1.10vw #f39e60, 0 0 1.30vw #f39e60;
-    letter-spacing: 0.5vw;
-}
-
-body {
-    background-color: #e16a54;
-}
-
-
-#welcome {
-    color: white;
-    font-style: italic;
-    font-family: "Palatino Linotype";
-    font-size: 2vw;
-    max-width: 50%;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-
-}
-
-.navBar {
-    background-color: #6a363b;
-    padding: 1vw; 
-    position: sticky;
-    top: 0;
-    text-align: right;
-    
-}
-
-.navigation {
-    color: #f39e60;
-    font-size: 1.5vw;
-    padding: 2vw;
-}
-
-.navigation:hover {
-    color: white;
-}
-
-#banner {
-    width: 60vw;
-    margin: 0 auto; 
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    display: block;
-    border-radius: 5vw;
-    box-shadow: 0px 0px 3vw black;
-    padding: 2vw;
-    background-color: #a24838;
-}
-
-
-
-
-
-
-
- */
-
- #tagline {
+#tagline {
     font-size: 1.5vw;
     font-style: italic;
     color: whitesmoke;
@@ -82,20 +11,16 @@ body {
 /* Section Title */
 .coffee h2 {
     font-size: 2vw;
+    text-align: center;
     color: #FFF;
     max-width: 14%;
     border:0.1vw solid black;
     border-radius: 1vw;
     background: linear-gradient(135deg, #643435 15%, #E16A54 50%, #F39E60 100%);
-    margin-left: 5vw;
-    margin-top: 6vw;
-    padding-left: 7vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding: 2vw;
     text-shadow: #501212 0 -1px 4px, #230d0f 0 -2px 10px, #180f06 0 -10px 20px, red 0 -18px 40px;
 }
 
-/* Table Container */
 #coffee_choices {
     border: 0.1vw solid #ffffff;
     border-radius: 3vw;
@@ -138,9 +63,6 @@ body {
     display: block;
     margin: 5px auto; 
 }
-
-
-
 
 form {
     background: #643435;
@@ -236,22 +158,3 @@ select:hover {
     border: 0.15vw solid white; 
     transition: background-color 0.3s ease-in-out;
 }
-
-
-/* footer {
-    background-color: #7c444a;
-    color: #f39e60;
-    font-weight: bolder;
-    text-shadow: 1vw 2vw 2vw #000;
-    text-shadow: -5px 5px 5px black;
-    font-size: 2vw;
-    text-align: center;
-}
-
-footer #title {
-    padding-top: 1.5vw;;
-    font-size: 1.5vw;
-    color: white;
-    text-shadow: 0 0 0.2vw #FFF, 0 0 0.4vw #FFF,  0 0 0.7vw #f39e60, 0 0 0.85vw #f39e60, 0 0 1vw #f39e60, 0 0 1.15vw #f39e60, 0 0 1.30vw #f39e60;
-    letter-spacing: 0.5vw;
-} */
