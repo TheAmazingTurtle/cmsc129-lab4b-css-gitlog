@@ -1,3 +1,5 @@
+/*=========================== KENT ===========================*/
+
 * {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -169,6 +171,262 @@ footer {
 footer p, div{
     margin: 0;
     text-align: center;
+}
+
+footer div {
+    margin: 10px 0;
+}
+
+/*=========================== KENT END ===========================*/
+
+
+
+/* 
+
+border: 1px black solid;
+
+LABORATORY EXERCISE #4
+Your task is to edit this CSS file and design the different web pages (delete the dummy/test code). 
+You are NOT allowed to modify/change the HTML files.
+
+Tips: 
+1. There are some elements that have no classes at all (such as the list of steps in making coffee), to style them, 
+you can use contextual selectors or attribute selectors to select them for styling
+2. Just with any web design project, it's best to draft a wireframe first before you start working with the CSS.
+3. You do not have to select all the classes/ids in the web pages; 
+the main goal is to create a website that is both visually appealing and user-friendly.
+*/
+
+
+/*=========================== KENNETH START ===========================*/
+
+/* 
+html {
+    border: 1vw outset #5F374B;
+}
+
+header {
+    background-color: #692d33;
+    color: #f39e60;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    color: #FFF;
+    text-shadow: 0 0 0.3vw #FFF, 0 0 0.55vw #FFF, 0 0 0.8vw #f39e60, 0 0 0.85vw #f39e60, 0 0 1.05vw #f39e60, 0 0 1.10vw #f39e60, 0 0 1.30vw #f39e60;
+    letter-spacing: 0.5vw;
+}
+
+body {
+    background-color: #e16a54;
+}
+
+
+#welcome {
+    color: white;
+    font-style: italic;
+    font-family: "Palatino Linotype";
+    font-size: 2vw;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.navBar {
+    background-color: #6a363b;
+    padding: 1vw; 
+    position: sticky;
+    top: 0;
+    text-align: right;
+    
+}
+
+.navigation {
+    color: #f39e60;
+    font-size: 1.5vw;
+    padding: 2vw;
+}
+
+.navigation:hover {
+    color: white;
+}
+
+#banner {
+    width: 60vw;
+    margin: 0 auto; 
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    display: block;
+    border-radius: 5vw;
+    box-shadow: 0px 0px 3vw black;
+    padding: 2vw;
+    background-color: #a24838;
+}
+
+
+
+
+
+
+
+ */
+
+ #tagline {
+    font-size: 1.5vw;
+    font-style: italic;
+    color: whitesmoke;
+    text-shadow: -5px 5px 5px black;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Section Title */
+.coffee h2 {
+    font-size: 2vw;
+    color: #FFF;
+    max-width: 14%;
+    border:0.1vw solid black;
+    border-radius: 1vw;
+    background: linear-gradient(135deg, #643435 15%, #E16A54 50%, #F39E60 100%);
+    margin-left: 5vw;
+    margin-top: 6vw;
+    padding-left: 7vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-shadow: #501212 0 -1px 4px, #230d0f 0 -2px 10px, #180f06 0 -10px 20px, red 0 -18px 40px;
+}
+
+/* Table Container */
+#coffee_choices {
+    border: 0.1vw solid #ffffff;
+    border-radius: 3vw;
+    max-width: 80%;
+    margin: 0 auto; 
+    background: linear-gradient(135deg, #643435 0%, #E16A54 43%, #F39E60 100%);
+    padding: 2vw;
+}
+
+#coffee_choices td {
+    padding: 1vw;
+    text-align: center;
+    width: 10vw;
+}
+
+.coffeeTitle {
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 1vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: #fff1f1 0 -1px 4px, #fff8f9 0 -2px 10px, #bf670f 0 -10px 20px, #f39e60 0 -18px 40px;
+    border-radius: 1vw;
+    letter-spacing: 2vw;
+}
+
+.label {
+    font-size: 1.5vw;
+    color: white;
+    text-shadow: #000000 2px -1px 5px;
+}
+
+.coffeeImg {
+    width: 11vw;
+    max-width: 10vw;
+    min-width: 10vw; 
+    height: 10vw; 
+    border-radius: 1vw;
+    display: block;
+    margin: 5px auto; 
+}
+
+
+
+
+form {
+    background: #643435;
+    background: -moz-linear-gradient(top, #643435 0%, #E16A54 100%, #43272C 100%);
+    background: -webkit-linear-gradient(top, #643435 0%, #E16A54 100%, #43272C 100%);
+    background: linear-gradient(to bottom, #643435 0%, #E16A54 100%, #43272C 100%);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2vw;
+    padding: 1vw;
+    gap: 3vw;
+}
+
+form label,
+form input,
+form select {
+    margin-bottom: 2vw; 
+}
+
+label {
+    color: white;
+    font-size: 1.5vw;
+    text-shadow: 2px 2px 1px black;
+}
+
+input {
+    width: 15vw;
+    max-width: 15vw;
+    height: 2vw;
+    max-height: 2vw;
+    font-size: 1vw;
+    text-align: center;
+    font-weight: bold;
+    background-color: #daac8c;
+    color: white;
+    font-size: 1vw;
+    text-shadow: 1px 1px 3px black;
+}
+
+input:hover {
+    background-color: #f39e60;
+}
+
+select {
+    background-color: #43272C;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+input[type="submit"] {
+    color:white;
+    background-color: #43272C;
+    text-shadow: 1px 1px 2px black;
+    max-width: 7vw;
+    text-align: center;
+    border-radius: 1vw;
+}
+
+input[type="submit"]:hover {
+    background-color: #f39e60;
+    border: 0.15vw solid white; 
+    background: #643435;
+    background: -moz-linear-gradient(top, #643435 0%, #E16A54 100%, #43272C 100%);
+    background: -webkit-linear-gradient(top, #643435 0%, #E16A54 100%, #43272C 100%);
+    background: linear-gradient(to bottom, #643435 0%, #E16A54 100%, #43272C 100%);
+}
+
+
+select {
+    width: 15vw;
+    max-width: 15vw;
+    height: 2vw;
+    max-height: 2vw;
+    font-size: 1vw;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-color: #43272C;
+    text-align: center;
     border-radius: 0.5vw;
 
 }
@@ -181,3 +439,11 @@ select:hover {
     border: 0.15vw solid white; 
     transition: background-color 0.3s ease-in-out;
 }
+
+/*=========================== KENNETH END ===========================*/
+
+/*=========================== MARK START ==========================*/
+/*=========================== MARK END ===========================*/
+
+/*=========================== JASMINE START ===========================*/
+/*=========================== JASMINE END ===========================*/
