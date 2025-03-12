@@ -1,31 +1,114 @@
 * {
-    width: 100%;
-}
-
-table {
-    width: 100%;
-}
-
-td {
-    max-width: 12%;
-    width: 100px;
-}
-
-.coffeeImg {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
-    background-color: lightblue;
+    padding: 0;
+    margin: 0;
 }
 
-.about {
-    background-color: lightgreen;
+img.imgBanner {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
 }
+
+header { 
+
+}
+
+header h1 {
+    font-size: 20px;
+    padding: 15px 0 15px 15px;
+    margin: 0;
+    display: flex;
+    width: 50%;
+    font-weight: bold;
+}
+
+header hr {
+    margin-top: 0;
+}
+
+p#welcome {
+    text-align: center;
+}
+
+div.navBar {
+    font-size: 18px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    height: 55px;
+    
+}
+
+a.navigation {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: black;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 100px;
+    margin: auto;
+}
+
+a.navigation:hover {
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 660px) {
+    header h1 {
+        font-size: 15px;
+        padding: 10px 0 10px 15px;
+        margin: 0;
+        display: flex;
+        width: 130px;
+        font-weight: bold;
+    }
+
+    a.navigation {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        color: black;
+        
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        height: 55px;
+        width: 70px;
+        margin: auto;
+    }
+}
+
+footer {
+    color: orange;
+    background-color: brown;
+}
+
+footer p, div{
+    margin: 0;
+    text-align: center;
+}
+
+footer div {
+    margin: 10px 0;
+}
+
+
+
+
 
 /* 
+
+border: 1px black solid;
+
 LABORATORY EXERCISE #4
 Your task is to edit this CSS file and design the different web pages (delete the dummy/test code). 
 You are NOT allowed to modify/change the HTML files.
