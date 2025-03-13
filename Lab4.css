@@ -124,72 +124,10 @@ footer div {
 
 /*=========================== KENNETH START ===========================*/
 
-/* 
-html {
-    border: 1vw outset #5F374B;
-}
 
-header {
-    background-color: #692d33;
-    color: #f39e60;
-    font-weight: bolder;
-    font-size: 1.5vw;
-    padding: 0.5vw;
-    color: #FFF;
-    text-shadow: 0 0 0.3vw #FFF, 0 0 0.55vw #FFF, 0 0 0.8vw #f39e60, 0 0 0.85vw #f39e60, 0 0 1.05vw #f39e60, 0 0 1.10vw #f39e60, 0 0 1.30vw #f39e60;
-    letter-spacing: 0.5vw;
-}
-
-body {
-    background-color: #e16a54;
-}
-
-
-#welcome {
-    color: white;
-    font-style: italic;
-    font-family: "Palatino Linotype";
-    font-size: 2vw;
-    max-width: 50%;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-
-}
-
-.navBar {
-    background-color: #6a363b;
-    padding: 1vw; 
-    position: sticky;
-    top: 0;
-    text-align: right;
-    
-}
-
-.navigation {
-    color: #f39e60;
-    font-size: 1.5vw;
-    padding: 2vw;
-}
-
-.navigation:hover {
-    color: white;
-}
-
-#banner {
-    width: 60vw;
-    margin: 0 auto; 
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    display: block;
-    border-radius: 5vw;
-    box-shadow: 0px 0px 3vw black;
-    padding: 2vw;
-    background-color: #a24838;
-}
- */
-
- #tagline {
+/* For Menu ni Siya hehe */
+#tagline {
+    padding-bottom: 3vw;
     font-size: 1.5vw;
     font-style: italic;
     color: whitesmoke;
@@ -199,18 +137,7 @@ body {
     margin: 0 auto;
 }
 
-/* Section Title */
-.coffee h2 {
-    font-size: 2vw;
-    text-align: center;
-    color: #FFF;
-    max-width: 14%;
-    border:0.1vw solid black;
-    border-radius: 1vw;
-    background: linear-gradient(135deg, #643435 15%, #E16A54 50%, #F39E60 100%);
-    padding: 2vw;
-    text-shadow: #501212 0 -1px 4px, #230d0f 0 -2px 10px, #180f06 0 -10px 20px, red 0 -18px 40px;
-}
+
 
 #coffee_choices {
     border: 0.1vw solid #ffffff;
@@ -263,7 +190,7 @@ form {
     text-align: center;
 }
 
- #tagline {
+#tagline {
     font-size: 1.5vw;
     font-style: italic;
     color: whitesmoke;
@@ -273,21 +200,39 @@ form {
     margin: 0 auto;
 }
 
+
 /* Section Title */
 .coffee h2 {
-    font-size: 2vw;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
     color: #FFF;
-    max-width: 14%;
-    border:0.1vw solid black;
+    border:0.1vw solid rgb(255, 255, 255);
     border-radius: 1vw;
     background: linear-gradient(135deg, #643435 15%, #E16A54 50%, #F39E60 100%);
-    margin-left: 5vw;
-    margin-top: 6vw;
-    padding-left: 7vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    text-shadow: #501212 0 -1px 4px, #230d0f 0 -2px 10px, #180f06 0 -10px 20px, red 0 -18px 40px;
+    text-shadow: #fff1f1 0 -1px 4px, #fff8f9 0 -2px 10px, #bf670f 0 -10px 20px, #f39e60 0 -18px 40px;
+    box-shadow:  #000000 0 0px 4px,  #000000 0 -4px 10px;
+    position: relative;
 }
+
+.order .coffee h2 {
+    max-width: 30%;
+    font-size: 3vw;
+    font-weight: strong;
+    letter-spacing: 3vw;
+    padding: 0vw 0vw 0.5vw 3vw;
+    margin: 2vw auto -8vw auto;
+}
+
+
+.home .coffee h2 {
+    font-size: 2vw;
+    max-width: 30%;
+    letter-spacing: 0.5vw;
+    padding: 1vw 0vw 1vw 0.8vw;
+    margin: 2vw auto -10vw auto;
+    
+}
+
 
 /* Table Container */
 #coffee_choices {
@@ -297,6 +242,7 @@ form {
     margin: 0 auto; 
     background: linear-gradient(135deg, #643435 0%, #E16A54 43%, #F39E60 100%);
     padding: 2vw;
+    padding-top: 10vw;
 }
 
 #coffee_choices td {
@@ -317,6 +263,12 @@ form {
     letter-spacing: 2vw;
 }
 
+.coffeeTitle::before{
+    content: "a";
+    font-size: 0.1vw;
+    color: #00000080;
+}
+
 .label {
     font-size: 1.5vw;
     color: white;
@@ -332,9 +284,6 @@ form {
     display: block;
     margin: 5px auto; 
 }
-
-
-
 
 form {
     background: #643435;
@@ -430,6 +379,62 @@ select:hover {
     border: 0.15vw solid white; 
     transition: background-color 0.3s ease-in-out;
 }
+
+ol {
+z-index: 2;
+background: linear-gradient(135deg, #643435 15%, #E16A54 50%, #F39E60 100%);
+padding: 2vw;
+padding-top: 12vw;
+border-radius: 2vw;
+width: 80vw;
+margin: 0 auto;
+list-style: none;
+counter-reset: list-counter;
+border: 0.2vw solid white;
+
+display: grid;
+grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+gap: 2vw;
+
+}
+
+ol li {
+counter-increment: list-counter; /* Increments counter for each <li> */
+position: relative;
+display: flex;
+align-items: center;
+gap: 1.5vw
+}
+
+li::before{
+margin-left: 2vw;
+content: "#"counter(list-counter);
+font-size: 3vw;
+font-style: normal;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-style: bold;
+text-shadow: #fff1f1 0 -1px 4px, #fff8f9 0 -2px 10px, #bf670f 0 -10px 20px, #f39e60 0 -18px 40px;
+}
+
+li {
+border: 0.2vw solid #A4B4CB;
+text-align: justify;
+background-color: rgb(100, 52, 53, 0.5);
+margin-bottom: 1vw;
+border-radius: 2vw;
+padding: 1vw;
+color: white;
+font-style: italic;
+font-size: 1.2vw;
+font-family: 'Poppins';
+letter-spacing: 0.2vw;
+text-shadow: #fff1f1 0 -1px 4px, #fff8f9 0 -2px 10px, #bf670f 0 -10px 20px, #f39e60 0 -18px 40px;
+}
+
+
+
+
+
 
 /*=========================== KENNETH END ===========================*/
 
