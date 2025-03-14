@@ -40,11 +40,13 @@ h1#title {
 
 h1#title::after {
     position: absolute;
+    display: block;
     top: 0%;
-    margin: 0 auto;
     margin-top: calc(20% + 87px);
     padding: 0;
-    left: calc(50% - 35vw);
+    left: 50%;
+    width: 100vw;
+    transform: translateX(-50%);
     font-size: 4vw;
 
     content: "Vinze and Baboy's Coffee Shop";
