@@ -593,13 +593,16 @@ img[src="Images/CoffeeCup.jpg"]{
 
 /* Image banner (BIG Coffee Picture) */
 .about .coffee img#banner.imgBanner {
-    /* border: soid 10px #FFF;
+    border: soid 10px #FFF;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-    border-radius: 10px; */
+    margin-bottom: 3vw;
+    margin: 2vw;
+    
+    border-radius: 50%;
     
     width: 35vw; 
-    height: 35vw;
-    padding: 5vw;
+    height: 30vw;
+    padding: 3vw;
 }
 /* Welcome to Vinze and Baboy's Mesage */
 .about br + .coffee p {
