@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #796112;
+    /* background: #796112; */
     background: linear-gradient(to right, #643435 0%, #E16A54 43%, #F39E60 100%);
     padding: 0;
     margin: 0;
