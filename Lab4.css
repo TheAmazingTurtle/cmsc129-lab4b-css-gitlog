@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #F8F6F0;
+    background: #796112;
     background: linear-gradient(to right, #643435 0%, #E16A54 43%, #F39E60 100%);
     padding: 0;
     margin: 0;
@@ -379,55 +379,58 @@ select:hover {
     border: 0.15vw solid white; 
 }
 
-ol {
-z-index: 2;
-background: linear-gradient(135deg, #643435 15%, #E16A54 50%, #F39E60 100%);
-padding: 2vw;
-padding-top: 12vw;
-border-radius: 2vw;
-width: 80vw;
-margin: 0 auto;
-list-style: none;
-counter-reset: list-counter;
-border: 0.2vw solid white;
 
-display: grid;
-grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
-gap: 2vw;
+.home {
+    ol {
+    z-index: 2;
+    background: linear-gradient(135deg, #643435 15%, #E16A54 50%, #F39E60 100%);
+    padding: 2vw;
+    padding-top: 12vw;
+    border-radius: 2vw;
+    width: 80vw;
+    margin: 0 auto;
+    list-style: none;
+    counter-reset: list-counter;
+    border: 0.2vw solid white;
 
-}
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+    gap: 2vw;
 
-ol li {
-counter-increment: list-counter; /* Increments counter for each <li> */
-position: relative;
-display: flex;
-align-items: center;
-gap: 1.5vw
-}
+    }
 
-li::before{
-margin-left: 2vw;
-content: "#"counter(list-counter);
-font-size: 3vw;
-font-style: normal;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-font-style: bold;
-text-shadow: #fff1f1 0 -1px 4px, #fff8f9 0 -2px 10px, #bf670f 0 -10px 20px, #f39e60 0 -18px 40px;
-}
+    ol li {
+    counter-increment: list-counter; /* Increments counter for each <li> */
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1.5vw
+    }
 
-li {
-border: 0.2vw solid #A4B4CB;
-text-align: justify;
-background-color: rgb(100, 52, 53, 0.5);
-margin-bottom: 1vw;
-border-radius: 2vw;
-padding: 1vw;
-color: white;
-font-style: italic;
-font-size: 1.2vw;
-font-family: 'Poppins';
-letter-spacing: 0.2vw;
-text-shadow: #fff1f1 0 -1px 4px, #fff8f9 0 -2px 10px, #bf670f 0 -10px 20px, #f39e60 0 -18px 40px;
+    li::before{
+    margin-left: 2vw;
+    content: "#"counter(list-counter);
+    font-size: 3vw;
+    font-style: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    text-shadow: #fff1f1 0 -1px 4px, #fff8f9 0 -2px 10px, #bf670f 0 -10px 20px, #f39e60 0 -18px 40px;
+    }
+
+    li {
+    border: 0.2vw solid #A4B4CB;
+    text-align: justify;
+    background-color: rgb(100, 52, 53, 0.5);
+    margin-bottom: 1vw;
+    border-radius: 2vw;
+    padding: 1vw;
+    color: white;
+    font-style: italic;
+    font-size: 1.2vw;
+    font-family: 'Poppins';
+    letter-spacing: 0.2vw;
+    text-shadow: #fff1f1 0 -1px 4px, #fff8f9 0 -2px 10px, #bf670f 0 -10px 20px, #f39e60 0 -18px 40px;
+    }
 }
 
 
@@ -449,7 +452,6 @@ button {
     font-size: 2vw;
     font-weight: strong;
     padding: 0vw 1vw 0.5vw 1vw;
-    text-align: right;
     transition: all 0.1s ease-in-out ;
 
     display: block;
@@ -491,6 +493,7 @@ span {
     
 }
 .order .coffee #tagline{
+    margin-top: 5vw;
     margin-bottom: 5vw;
     padding: 0.5vw;
 }
@@ -505,12 +508,47 @@ span {
     text-align: center;
     font-size: 1.5vw;
     max-width: 60vw;
+    padding: 1vw;
 }
 
 
+[href="#bottomPage"], 
+[href="#title"] {
+    background: linear-gradient(135deg, #643435 15%, #E16A54 50%, #F39E60 100%);
+    padding: 0.5vw 0.5vw;
+    max-width: 10vw;
+    margin: 0;
+    text-shadow: #501212 0 -1px 4px, #230d0f 0 -2px 10px, #180f06 0 -10px 20px, red 0 -18px 40px;
+    font-weight: bold;
+    font-size: 1vw;
+    color: white;
+    margin: 2vw auto 2vw auto;
+    border-radius: 1vw;
+    transition: all 0.1s ease-in-out;
+}
 
+img[src="Images/CoffeeDrop.jpg"],
+img[src="Images/CoffeeCup.jpg"]{
+    border: 0.2vw solid black;
+    padding: 2vw;
+    background-color: #9e4737;
+    background
+    width: 80vw;
+    height: 30vw;
+    max-width: 80vw; 
+    max-height: 30w;
+    border-radius: 2vw; 
+    box-shadow: 0.8vw 0.8vw 1vw #000000, 1vw 1vw 0.2vw #000000, 1.2vw 1.2vw 0.2vw #171414, 1.4vw 1.4vw 0.2vw #171414;
+}   
 
-
+[href="#bottomPage"]:hover,
+[href="#title"]:hover {
+    border:0.2vw solid rgb(255, 255, 255);
+    box-shadow:  #ffffff 0 0px 4px,  #ffffff 0 -4px 10px;
+    scale: 1.2;
+    font-weight: bold;
+    text-shadow: #fff1f1 0 -1px 4px, #fff8f9 0 -2px 10px, #bf670f 0 -10px 20px, #f39e60 0 -18px 40px;
+}
 
 
 
