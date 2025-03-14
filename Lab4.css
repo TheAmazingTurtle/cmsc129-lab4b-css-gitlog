@@ -42,7 +42,7 @@ h1#title::after {
     position: absolute;
     top: 0%;
     margin: 0 auto;
-    margin-top: calc(15% + 87px);
+    margin-top: calc(20% + 87px);
     padding: 0;
     left: calc(50% - 35vw);
     font-size: 4vw;
